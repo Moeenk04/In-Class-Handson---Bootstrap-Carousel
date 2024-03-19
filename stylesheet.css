@@ -1,0 +1,56 @@
+/* Custom CSS for the carousel example */
+  
+
+/* Set carousel height */
+.carousel {
+    height: 400px;
+  }
+  
+  /* Set carousel image height */
+  .carousel-inner .item img {
+    height: 400px;
+  }
+  
+  /* Carousel caption style */
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    color: #fff; /* White text color */
+    border-radius: 5px; /* Rounded corners */
+    padding: 10px; /* Padding inside the caption */
+  }
+  
+  /* Style for carousel control arrows */
+  .carousel-control {
+    width: 5%; /* Set arrow width */
+  }
+  
+  .carousel-control.left,
+  .carousel-control.right {
+    background-image: none; /* Remove default background image */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 50%; /* Make arrow buttons circular */
+    height: 40px; /* Set arrow height */
+    top: 50%; /* Position arrows vertically centered */
+    transform: translateY(-50%); /* Offset vertical positioning */
+  }
+  
+  .carousel-control.left {
+    left: 0; /* Position left arrow */
+  }
+  
+  .carousel-control.right {
+    right: 0; /* Position right arrow */
+  }
+  
+  /* Style for carousel control icons */
+  .carousel-control .glyphicon-chevron-left,
+  .carousel-control .glyphicon-chevron-right {
+    color: #fff; /* White color for arrow icons */
+    font-size: 20px; /* Set arrow icon size */
+  }
+  
+  /* Set active indicator color */
+  .carousel-indicators .active {
+    background-color: #337ab7; /* Bootstrap primary color */
+  }
+  
